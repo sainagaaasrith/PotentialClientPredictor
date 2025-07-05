@@ -43,14 +43,14 @@ docker build -t potential-client-predictor .
 
 ### 2. Tag and Push to Docker Hub
 ```
-docker tag potential-client-predictor yourusername/potential-client-predictor:latest
-docker push yourusername/potential-client-predictor:latest
+docker tag potential-client-predictor aasrithmsn/potential-client-predictor:latest
+docker push aasrithmsn/potential-client-predictor:latest
 ```
 
 ### 3. Pull and Run on EC2
 ```
-docker pull yourusername/potential-client-predictor:latest
-docker run -d -p 5000:5000 --name potential-client-predictor yourusername/potential-client-predictor:latest
+docker pull aasrithmsn/potential-client-predictor:latest
+docker run -d -p 5000:5000 --name potential-client-predictor aasrithmsn/potential-client-predictor:latest
 ```
 
 ### 4. API Endpoints
