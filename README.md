@@ -78,6 +78,3 @@ docker run -d -p 5000:5000 --name potential-client-predictor yourusername/potent
   ```sh
   curl -X POST http://<EC2-Public-IP>:5000/predict -H "Content-Type: application/json" -d '{"feature1": value1, "feature2": value2}'
   ```
-
----
-Replace `yourusername` and feature names/values as appropriate for your setup.
